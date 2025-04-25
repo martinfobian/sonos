@@ -3,9 +3,9 @@
 namespace duncan3dc\Sonos\Devices;
 
 use duncan3dc\Cache\ArrayPool;
-use duncan3dc\Log\LoggerAwareTrait;
 use duncan3dc\Sonos\Interfaces\Devices\DeviceInterface;
 use duncan3dc\Sonos\Interfaces\Devices\FactoryInterface;
+use Psr\Log\LoggerAwareTrait;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 use Psr\SimpleCache\CacheInterface;
